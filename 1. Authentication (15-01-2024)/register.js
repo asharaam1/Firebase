@@ -1,5 +1,6 @@
+//? (15-01-2025)
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-import { auth } from "./firebaseconfig.js";
+import { auth } from "./firebaseconfig.js";     //es line ma import kia ha hamane firebaseconfig.js ki file se
 
 const form = document.querySelector("#form");
 const email = document.querySelector("#email");
@@ -27,3 +28,11 @@ form.addEventListener("submit", event => {
         });
 
 })
+
+
+
+
+//? (17-01-2025)
+// Authentication Topic Completed, login Register completed == code not pushed
+
+//todo Task: Shuffle Array on every refresh JS task
