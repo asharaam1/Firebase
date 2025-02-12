@@ -13,12 +13,16 @@
     <h2>Dashboard</h2>
     <form id="itemForm">
         <div class="mb-3">
-            <label for="title" class="form-label" >Title</label>
+            <label for="title" class="form-label">Title</label>
             <input type="text" class="form-control" id="title" placeholder="Enter Title" required>
         </div>
-        
         <div class="mb-3">
-            <label for="image" class="form-label" >Image</label>
+            <label for="description" class="form-label">Description</label>
+            <textarea name="description" class="form-control" id="description" placeholder="Enter Title"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
             <input type="file" class="form-control" id="upload_widget" placeholder="Enter Title" required>
         </div>
         <button type="button" class="btn btn-primary">Submit</button>
